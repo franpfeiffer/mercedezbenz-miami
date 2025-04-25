@@ -14,10 +14,7 @@ function App() {
       {/* Header */}
       <header className="flex items-center justify-between px-8 py-4 bg-[#0e1413] border-b border-[#232324]/60 relative">
         <div className="flex items-center gap-4">
-          <img src="https://ext.same-assets.com/840999185/149966030.png" alt="Mercedes Logo" className="h-8" />
-          <span className="text-[#dbd9d5] text-lg tracking-widest uppercase font-heading font-light">
-            Mercedes Benz Places Miami
-          </span>
+          <img src="/mercedes-benz-logo.webp" alt="Mercedes Logo" className="h-14" />
         </div>
         <nav className="hidden md:flex gap-6 text-[#dbd9d5] text-sm font-medium">
           <a href="#amenities" className="hover:underline">Amenities</a>
@@ -124,15 +121,9 @@ function App() {
       </section>
 
       {/* Map & Info Section */}
-      <section className="bg-[#1a1b1a] py-10 flex flex-col md:flex-row gap-10 justify-center items-start px-3">
+      <section className="bg-[#111214] py-10 flex flex-col md:flex-row gap-10 justify-center items-start px-3">
         <div className="flex-1 flex flex-col gap-6 items-center">
-          <img src={mapImg} alt="Mercedes Benz Miami Map" className="max-w-md rounded-md" />
-        </div>
-        <div className="flex-1 flex flex-col gap-4 items-center">
-          <div className="text-lg text-white text-left font-light">
-            <p className="mb-4 font-heading"><span className="font-semibold">Mercedes Benz Places – Miami</span></p>
-            <p>The Best of Brickell<br />Culture &amp; Entertainment, Culinary &amp; Nightlife, Notable Points of Interest, Transit</p>
-          </div>
+          <img src={mapImg} alt="Mercedes Benz Miami Map" className="max-w-full rounded-md" />
         </div>
       </section>
 
